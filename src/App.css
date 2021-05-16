@@ -1,0 +1,93 @@
+.main{
+	padding-top: 4em;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50vw;
+	text-align: center;
+}
+
+h1{
+	color: #fff;
+}
+
+button{
+	display: block;
+	margin: auto;
+	width: 8em;
+	height: 2.75em;
+	background-color: #fff;
+	border: 2px solid #f00;
+	border-radius: 5px;
+	color: #f00;
+	transition: all 0.25s ease;
+}
+
+button:hover{
+	background-color: #f00;
+	color: #fff;
+}
+
+button:disabled{
+	cursor: not-allowed;
+	background-color: #fff;
+	color: #f00;
+}
+
+input{
+	width: 2.25em;
+	height: 2em;
+	text-align: center;
+	font-size: 20px;
+	padding: 0;
+	margin: 1em auto 2em;
+}
+
+input:focus{
+	outline: none;
+}
+
+.table{
+	display: flex;
+	margin: 2em auto;
+	justify-content: center;
+	width: 40em;
+	color: #fff;
+}
+
+th{
+	width: 10em;
+	font-size: 20px;
+	padding: 10px;
+}
+
+td{
+	padding: 5px;
+	text-align: center;
+}
+
+table, th, td{
+	border: 1px solid #fff;
+}
+
+@media only screen and (max-width: 650px){
+	.main{
+		width: 80vw;
+	}
+
+	.table{
+		width: 25em;
+	}
+}
+
+@media only screen and (max-width: 450px){
+	th{
+		font-size: 17px;
+	}
+
+	.table{
+		width: 15em;
+	}
+}
