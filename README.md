@@ -69,7 +69,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### TestCases
+### Librabies Used-
+1)react
+2)react-dom
+3)axios
+4)import components to App.jsx 
+
+### Components-
+App
+
+
+
+### TestCases-
+
+Here we are providing sample inputs to test our assignment:
 
 
 ![testCase1](https://user-images.githubusercontent.com/57755918/118403202-f9f11300-b68a-11eb-8708-24c835a43416.JPG)
