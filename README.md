@@ -78,7 +78,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Components-
 App
 
-
+explaination -
+In our Application we are fetching the data with the help of react axios library and then we are filtering that data. After this process we are sorting the filtered data. 
+we are asking users to input an integer (n) and with the help of that input data we are calculating the top most occurred (n) words and at last we are displaying all the 
+results to the user on our app.
 
 ### TestCases-
 
@@ -91,4 +94,9 @@ Here we are providing sample inputs to test our assignment:
 
 ![testCase2](https://user-images.githubusercontent.com/57755918/118403214-0a08f280-b68b-11eb-8550-b58d817ee664.JPG)
 
+
+
+### Hosted url-
+
+https://frequency-of-word.herokuapp.com/
 
