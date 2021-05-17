@@ -73,7 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 1)react
 2)react-dom
 3)axios
-4)import components to App.jsx 
+
 
 ### Components-
 App
